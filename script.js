@@ -1,10 +1,7 @@
-function firstWord(s) {
+function firstWord(str) {
   // your code here
-	
-    let words = str.split(' ');
-
-    // Return the first word
-    return words[0]
+	let words = str.trim().split(' ');
+    return words[0];
 }
 
 // Do not change the code below
